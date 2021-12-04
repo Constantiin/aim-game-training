@@ -46,10 +46,6 @@ h1 {
   margin-top: -100vh;
 }
 
-/* .screen.down {
-  margin-bottom: -100vh;
-} */
-
 .time-list {
   display: flex;
   flex-wrap: wrap;
@@ -110,4 +106,25 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+@media (max-width: 550px) {
+  .board {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 425px) {
+  .board {
+    width: 390px;
+    height: 390px;
+  }
+}
+
+@media (max-width: 375px) {
+  .board {
+    width: 310px;
+    height: 310px;
+  }
 }
